@@ -9,7 +9,7 @@ print(type(a))
 b = list()
 c = [70, 75, 80, 85]
 print(len(c))
-d = [1000, 10000, 'Ace', 'Base', 'Captain']
+d = [1000, 10000, 'Ace', 'Base', 'Captain', 'b']
 e = [1000, 10000, ['Ace', 'Base', 'Captain']]
 f = [21.42, 'foobar', 3, 4, False, 3.14159]
 tmp = ["P 3000 5","S 500 3"]
