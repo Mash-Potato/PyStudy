@@ -84,6 +84,8 @@ print('a - ', a.count("사과")) # 4의 갯수가 1개가있다.
 ex = [8, 9]
 a.extend(ex)
 print('a - ', a)
+ex.clear() # clear 사용가능.
+print('this ', ex)
 
 # 삭제 : remove, pop, del
 
