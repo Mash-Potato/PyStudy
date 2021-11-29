@@ -9,21 +9,21 @@ print('''Python Start!''')
 print("""Python Start!\n""")
 
 # separator 옵션
-print('P', 'y', 't', 'h', 'o', 'n', sep='')
-print('010', '7777', '1234', sep='-')
-print('Python', 'Google.com\n', sep='@')
+print('P', 'y', 't', 'h', 'o', 'n', sep = '')
+print('010', '7777', '1234', sep = '-')
+print('Python', 'Google.com\n', sep = '@')
 
 # end 옵션
-print('Welcom to', end=' ')
-print('IT News', end=' ')
+print('Welcom to', end = ' ')
+print('IT News', end = ' ')
 print('Web Site\n')
 
 # file 옵션
 import sys
 
-print('Learn Python\n',  file=sys.stdout)
+print('Learn Python\n',  file = sys.stdout)
 
-# format 사용(d, s, f) o, x도 있음 d=digit=3, s=string='python', f=float=3.14555
+# format 사용(d, s, f) o, x도 있음 d = digit = 3, s = string = 'python', f = float = 3.14555
 print('%s %s' %('one', 'two'))
 print('{} {}'.format('one', 'two'))
 print('{} {}'.format('one', 2))
