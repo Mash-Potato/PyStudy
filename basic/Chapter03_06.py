@@ -80,4 +80,4 @@ print('s1 - ', s1)
 
 s1.clear()
 print('s1 - ', s1)
-
+print('s1 - ', s1)
