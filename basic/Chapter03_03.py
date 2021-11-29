@@ -61,7 +61,7 @@ print('c - ', c)
 print()
 
 # 리스트 함수
-a = [5, 2, 3, 1, 4]
+a = [5, 2, 3, 1, 4, 999]
 print('a - ', a)
 a.append(10) # 추가
 print('a - ', a)
@@ -69,7 +69,7 @@ a.sort() # 정렬
 print('a - ', a)
 a.reverse()
 print('a - ', a)
-print('a - ', a.index(3), a[3]) # 인덱스 가져오기
+print('tta - ', a.index(999), a[0]) # 999의 인덱스 가져오기
 a.insert(2, 7) # 소트 후 삽입 append는 맨뒤에 추가 insert는 위치, 값
 print('a - ', a)
 a.reverse()
