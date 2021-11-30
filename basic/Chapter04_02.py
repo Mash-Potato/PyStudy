@@ -1,5 +1,5 @@
 # Chapter04_2
-# 파이썬 반복문(flow control)
+# 파이썬 반복문 in 흐름 제어(flow control)
 # for 실습
 
 # 코딩의 핵심
