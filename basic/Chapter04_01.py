@@ -1,5 +1,5 @@
 # Chapter04_1
-# 파이썬 제어문
+# 파이썬 제어문(flow control)
 # if 실습
 
 # 기본 형식
