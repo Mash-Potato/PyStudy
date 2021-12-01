@@ -2,7 +2,7 @@
 # Project1 실습
 # Hangman(행맨) 미니 게임 제작(1)
 # 기본 프로그램 제작 및 테스트
-import sys
+
 import time
 
 # 처음 인사
