@@ -22,6 +22,7 @@ cts = f.read()
 print(cts)
 # 반드시 close
 f.close()
+print()
 
 # 예제2
 with open('./resource/it_news.txt', 'rt', encoding='UTF-8') as f:
