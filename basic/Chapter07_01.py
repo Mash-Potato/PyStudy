@@ -104,6 +104,8 @@ else:
 finally:  # 예외가 발생해도 무조건 실행.
     print('Ok! finally!')
 
+print()
+
 # 예제4
 # 예외 발생 : raise
 # raise 키워드로 예외 직접 발생
