@@ -28,4 +28,5 @@ if __name__ == '__main__':
     print(multiply(5, 5))
     print(divide(10, 2))
     print(power(5, 3))
+    print(power(1, 1))
     print('-' * 15)
