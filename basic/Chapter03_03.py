@@ -13,6 +13,8 @@ d = [1000, 10000, 'Ace', 'Base', 'Captain', 'b']
 e = [1000, 10000, ['Ace', 'Base', 'Captain']]
 f = [21.42, 'foobar', 3, 4, False, 3.14159]
 tmp = ["P 3000 5","S 500 3"]
+n = int(input())
+answer = [-1] * n
 
 # 인덱싱
 print('>>>>>>')
