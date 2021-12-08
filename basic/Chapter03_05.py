@@ -53,6 +53,7 @@ print('a - ', a)
 a['name'] = 'Seoul'
 print('a - ', a)
 a['rank'] = [1, 2, 3]
+a['rank'].append(4)
 print('a - ', a)
 print()
 
