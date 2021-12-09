@@ -11,5 +11,8 @@ class Solution:
             else:
                 l_l.append(log)
 
-        d_l.sort(key=lambda x: (x.split()[1:], x.split()[0]))
-        return d_l + l_l
+        l_l.sort(key= lambda x: (x.split()[1:], x.split()[0]))
+        return l_l + d_l
+
+
+print(Solution.reorderLogFiles(' ', ["dig1 8 1 5 1", "let1 art can", "dig2 8 1 5 1", "let2 own kit dig", "let3 art zero"]))
