@@ -9,6 +9,7 @@ class Solution:
                 return [nums_dict[target - num], i]
             nums_dict[num] = i
 
+
 # 키 조회
 # class Solution:
 #     def twoSum(self, nums: List[int], target: int) -> List[int]:
