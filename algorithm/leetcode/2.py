@@ -66,8 +66,8 @@ class Solution:
 #         a = self.to_list(self.reverse_list(l1))
 #         b = self.to_list(self.reverse_list(l2))
 #
-#         result_str = int(''.join(str(e) for e in a)) + \
-#                      int(''.join(str(e) for e in b))
+#         result_str = int(''.join(map(str,a)) + \
+#                      int(''.join(map(str,b))
 #
 #         # 최종 계산결과 연결 리스트 변환
 #         return self.to_reversed_list(str(result_str))
