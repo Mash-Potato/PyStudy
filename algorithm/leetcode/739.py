@@ -1,3 +1,16 @@
+class Solution:
+    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
+        answer = [0] * len(temperatures)
+        # 스택에 인덱스 추가
+        stack = []
+        for index, c_t in enumerate(temperatures):
+            while stack and c_t > temperatures[stack[-1]]:
+                day = stack.pop()
+                answer[day] = index - day
+            stack.append(index)
+
+        return answer
+    
 # class Solution:
 #     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
 #         n = len(temperatures)
@@ -17,19 +30,8 @@
 #
 #         return answer
 
-class Solution:
-    def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
-        answer = [0] * len(temperatures)
-        stack = []
-        for i, cur in enumerate(temperatures):
-            while stack and cur > temperatures[stack[-1]]:
-                last = stack.pop()
-                answer[last] = i - last
-            stack.append(i)
 
-        return answer
-
-
+# my code 시간초과
 # class Solution:
 #     def dailyTemperatures(self, temperatures: List[int]) -> List[int]:
 #         answer = []
