@@ -94,6 +94,9 @@ print(type(()))
 print(type([]))
 
 # zip : 반복가능한 객체(iterable)의 요소를 묶어서 반환
+print(list(zip([(1, 3), (2, 2)])))
+print(*[(1, 3), (2, 2)])
+print(list(zip(*[(1, 3), (2, 2)])))
 print(list(zip([10, 20, 30],[40, 50, 60])))
 print(list(zip([10, 20, 30],[40, 50])))
 print(zip([10, 20, 30],[40, 50, 60]))
