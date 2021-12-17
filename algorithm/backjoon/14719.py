@@ -1,18 +1,18 @@
-h, w = map(int, input().split())
+input()
 height = list(map(int, input().split()))
 
-lt, rt = 0, w-1
+lt, rt = 0, len(height)-1
+lt_high, rt_high = height[lt], height[rt]
 
-lt_max, rt_max = height[lt], height[rt]
 answer = 0
 while lt < rt:
-    lt_max = max(lt_max, height[lt])
-    rt_max = max(rt_max, height[rt])
-    if lt_max <= rt_max:
-        answer += lt_max - height[lt]
+    if lt_high <= rt_high:
         lt += 1
+        lt_high = max(lt_high, height[lt])
+        answer += lt_high - height[lt]
     else:
-        answer += rt_max - height[rt]
         rt -= 1
+        rt_high = max(rt_high, height[rt])
+        answer += rt_high - height[rt]
 
 print(answer)
