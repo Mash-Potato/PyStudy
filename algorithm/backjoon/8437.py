@@ -1,0 +1,5 @@
+a = int(input())
+b = int(input())
+answer = ((a+b)//2)
+print(answer)
+print(answer-b)
